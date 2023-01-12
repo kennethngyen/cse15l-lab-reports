@@ -1,8 +1,7 @@
-## Heading 1
-Hello, World!
+# Hello, World!
 
-## Heading 2
-Today, we are commencing the beginning of the lab report era.
+## Today, we are commencing the beginning of the lab report era.
+
 
 > Great! What's next?
 
