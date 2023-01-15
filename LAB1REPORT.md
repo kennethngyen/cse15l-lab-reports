@@ -1,4 +1,4 @@
-# Welcome to Wk. 1 CSE15L Lab Report by Kenneth Nguyen.
+# Lab Report 1 CSE15L, by Kenneth Nguyen (A71458399)
 This is a manual on how to recreate Lab 1 without error.
 ## Table of Contents:
 - Groups, Shared Lab Docs, and setting up your Lab Account.
