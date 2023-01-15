@@ -1,9 +1,12 @@
 # Lab Report 1 CSE15L, by Kenneth Nguyen (A71458399)
 This is a manual on how to recreate Lab 1 without error.
 ## Table of Contents:
+- Installing VSCode
 - Groups, Shared Lab Docs, and setting up your Lab Account.
 - Remotely connecting to your SSH key (*remote* server)
+- Running some remote commands
 - git, GitHub, GitHub pages, and Markdown
+
 ---
 
 ## Part 0: Install VSCode
