@@ -38,11 +38,11 @@ Here's what it looks like when your SSH login works.
 
 ## Part 3: Running Some Commands on your Remote Server
 Some sample Linux commands:
-* `cd ~` : ==change directory to 'home'==
-* `cd` : ==change directory to to <insert path>==
-* `ls` : ==list working directory==
-* `ls -a` : ==list all files, including hidden files not shown by default==
-* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` : ==cp is short for copy, and the first parameter is the file, the second parameter is the destination; here it is the home directory==
+* `cd ~` : *change directory to 'home'*
+* `cd` : *change directory to to <insert path>*
+* `ls` : *list working directory*
+* `ls -a` : *list all files, including hidden files not shown by default*
+* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` : *cp is short for copy, and the first parameter is the file, the second parameter is the destination; here it is the home directory*
 
 ![Screenshot of what your remote server should look like](remoteSS.jpg)
 
