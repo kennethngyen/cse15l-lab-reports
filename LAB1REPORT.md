@@ -46,8 +46,7 @@ Some sample Linux commands:
 
 ![Screenshot of what your remote server should look like](remoteSS.jpg)
 
-Here is what looks like when you run the commands.
-> Here, when we run "ls -a", we print a list of all files, including hidden files, in our directory.
+> Here is what looks like when you run the commands. The image shows: when we run "ls -a", we print a list of all files, including hidden files, in our directory.
 
 * To better understand these commands, search them up on the internet; there are plenty resources.
 
