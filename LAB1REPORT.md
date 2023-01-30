@@ -10,7 +10,7 @@ This is a manual on how to recreate Lab 1 without error.
 ---
 
 ## Part 0: Install VSCode
-* Follow this link https://code.visualstudio.com/ to find instructions on setting up VSCode on all Operating Systems. 
+* Follow this [link](https://code.visualstudio.com/) to find instructions on setting up VSCode on all Operating Systems. 
 * Most of the students in CSE15L should have this installed already as CSE8B and CSE11 is a prerequisite, and VSCode is the main preferred text editor. 
 
 ![Image](vscodeSS.jpg)
@@ -38,21 +38,24 @@ Here's what it looks like when your SSH login works.
 
 ## Part 3: Running Some Commands on your Remote Server
 Some sample Linux commands:
-* `cd ~` 
-* `cd`
-* `ls`
-* `ls -a`
-* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+* `cd ~` : ==change directory to 'home'==
+* `cd` : ==change directory to to <insert path>==
+* `ls` : ==list working directory==
+* `ls -a` : ==list all files, including hidden files not shown by default==
+* `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` : ==cp is short for copy, and the first parameter is the file, the second parameter is the destination; here it is the home directory==
 
-![Image](remoteSS.jpg)
+![Screenshot of what your remote server should look like](remoteSS.jpg)
+
 Here is what looks like when you run the commands.
+> Here, when we run "ls -a", we print a list of all files, including hidden files, in our directory.
+
 * To better understand these commands, search them up on the internet; there are plenty resources.
 
 ## Part 4: GitHub, GitHub Pages, and MarkDown.
 * Create a GitHub account if not created (previously created in my case)
-* https://ucsd-cse15l-w23.github.io/week/week1/github.com (link to GitHub's website)
+* [Follow this link to access GitHub's website](https://github.com/)
 * Create a Repository for your website, and create a .md (MarkDown) file.
-> https://commonmark.org/help/ (link for MarkDown cheat sheet)
+> [(link for MarkDown cheat sheet)](https://commonmark.org/help/)
 * Once you've created your file, go to the Repository's settings (not account settings), select Pages from the left, and deploy it.
 * Reload the page in a minute, and it will link you to your pages. Congrats! It should say "Your site is live at ..."
 
