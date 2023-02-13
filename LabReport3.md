@@ -7,7 +7,7 @@
 4. `grep -c`
 
 
-## Command 1: `grep -r`
+# Command 1: `grep -r`
 ### What it does: 
 **`grep -r`:** *searches RECURSIVELY (hence the -r) for the line in all files of the directory*
 > Structure: `grep -r #QUERY`, replace #QUERY with whatever word or string you search for.
@@ -20,11 +20,12 @@
 
 ### We will be using `grep -r` pretty often, especially in the following commands below. Remember, it recursively iterates through each file in every subdirectory. 
 
-## Command 2: `grep -h`
+# Command 2: `grep -h`
 ### What it does: 
 **`grep -h`:** *displays the matched lines but not the file name itself (per GeeksForGeeks)*
+> Structure: `grep -h #QUERY #.txt` (or we can use grep -r -h #QUERY; regardless, replace #QUERY and #.txt with your custom string query and custom txt file respectively.)
 
-Let's look at how to use it:
+**Let's look at how to use it:**
 
 ![Grep -H screenshot](grepH1.jpg)
 > ^ From this screenshot, we see that grep recursively (-r) searches through all files in the subdirectories of written_2, then upon finding the string query, prints out the LINE but **NOT** the file name that it was found in.
@@ -34,9 +35,10 @@ Let's look at how to use it:
 ![Grep -H screenshot](grepH2.jpg)
 > ^ This one is a little special. From this first (top) red circle, not only do we search for "Colombia" in written_2, but also i nthe second (bottom) red circle, we combine it with a PIPE operator using `wc -l` to count how many occurrences/lines have Colombia in them. We see that in the entirety of written_2, there are 3 occurrences.
 
-## Command 3: `grep -l`
+# Command 3: `grep -l`
 ### What it does: 
 **`grep -l`:** *displays the list of file names that include the query keyword (per GeeksForGeeks)*
+> Structure: `grep -l #QUERY #.txt` (or we can use grep -r -l #QUERY; regardless, replace #QUERY with your custom string query)
 
 As mentioned in Command 3, we used -l with relation to the term "line." We can apply that idea to grep, although instead we use it to search for the file that it appears in. This can quicken and tidy up the process of finding which .txt files contain a certain query. 
 
@@ -47,10 +49,16 @@ As mentioned in Command 3, we used -l with relation to the term "line." We can a
 > ^ Using recursive search, we look for the string "Jude" to see which files contain the query. The listed .txt files contain "Jude".
 
 
-## Command 4: `grep -c`
+# Command 4: `grep -c`
 ### What it does: 
 **`grep -c`:** *prints the count of lines that match a pattern*
+> Structure: `grep -c #QUERY #.txt` (replace #QUERY with desired string and #.txt with file name)
 
+![Grep -C screenshot](grepC1.jpg)
+> ^ From this screenshot, grep counts and prints the number of occurrences of a search query in a given .txt file. 
+
+![Grep -L screenshot](grepL2.jpg)
+> ^ Using recursive search, we can count how many occurences of a given string there are in all files in all subdirectories that contain the query. From the screenshot, only the *first* .txt file contains the string "Hawaii".
 
 
 
