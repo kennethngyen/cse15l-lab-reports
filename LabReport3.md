@@ -61,7 +61,6 @@ As mentioned in Command 3, we used -l with relation to the term "line." We can a
 > ^ Using recursive search, we can count how many occurences of a given string there are in all files in all subdirectories that contain the query. From the screenshot, only the *first* .txt file contains the string "Hawaii".
 
 
-
-
+# *That's a wrap!*
 ### Sources:
 https://www.geeksforgeeks.org/grep-command-in-unixlinux/
